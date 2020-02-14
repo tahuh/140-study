@@ -1,0 +1,5 @@
+Hyunwoo Park	Graduate Student	Seoul National University	Organic chemistry	meticulous nature	200
+Jisoo Jang	100 Soo	Yonsei Univeristy	Biotechnology	free soul	100
+Sunghoon Heo	Graduate Student	Yonsei University	Cancer Immunogenomcis	loves drinking 300
+HongJae Yoo	Undergrad Student	Yonsei University	NO MAJOR	Don't know what he is doing	0
+
