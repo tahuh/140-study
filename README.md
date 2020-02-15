@@ -7,7 +7,7 @@ I really appreciate w3school people who make the knowledge accesilbe to everyone
 
 
 ## Maintainer
-Thomas Sunghoon Heo
+The head of 140 development team
 
 ## License
 MIT
