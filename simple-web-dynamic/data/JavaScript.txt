@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>SimpleWebApp - JavaScript</title>
-	</head>	
-	<body>
-		<li><a href="html.html">1. HTML</a></li>
-		<li><a href="css.html">2. CSS</a></li>
-		<li><a href="javascript.html">3. JavaScript</a></li>
-		<h1>JavaScript</h1>
-		<p>
-			JavaScript (/ˈdʒɑːvəˌskrɪpt/),[6] often abbreviated as JS, is an interpreted programming language that conforms to the ECMAScript specification.[7] JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
+JavaScript (/ˈdʒɑːvəˌskrɪpt/),[6] often abbreviated as JS, is an interpreted programming language that conforms to the ECMAScript specification.[7] JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
 
 Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web.[8] JavaScript enables interactive web pages and is an essential part of web applications. The vast majority of websites use it for client-side page behavior,[9] and all major web browsers have a dedicated JavaScript engine to execute it.
 
@@ -19,6 +7,3 @@ As a multi-paradigm language, JavaScript supports event-driven, functional, and 
 Originally used only in web browsers, JavaScript engines are also now embedded in server-side website deployments and non-browser applications.
 
 Although there are similarities between JavaScript and Java, including language name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.
-		</p>
-	</body>
-</html>

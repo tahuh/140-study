@@ -1,4 +1,4 @@
-# simple-web
+# simple-web-dynamic
 
 This repository has source codes for simple web services using Node.js
 
