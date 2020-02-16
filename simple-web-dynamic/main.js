@@ -118,7 +118,7 @@ var app = http.createServer( (req, res) => {
 				res.end(template);
 			});
 		});
-	} else if (pathname === "update_process") {
+	} else if (pathname === "/update_process") {
 		var body = '';
 		req.on('data', function(data) {
 			// information fragment is keep loading
@@ -130,7 +130,7 @@ var app = http.createServer( (req, res) => {
 			var title = post.title;
 			var id = post.id;
 			var description = post.description;
-			fs.rename(`data/${id}.txt`, `data/${title}` ,(err) => {
+			fs.rename(`data/${id}.txt`, `data/${title}.txt` ,(err) => {
 				fs.writeFile(`data/${title}.txt`, description, "utf8", (err)=>{
 					res.writeHead(302 , {Location:`/?id=${title}`});// redirect
 					res.end();
