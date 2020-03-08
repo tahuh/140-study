@@ -1,0 +1,56 @@
+# TASK
+# We want to access some database and extract information from that.
+# Assume we have following directory to collect multiple different databases.
+
+/server/database/
+
+# And we have following different databases
+1. consumer_id
+2. product_price
+3. inventory
+
+# These are located under following directories
+/server/databases/consumer_id
+/server/databases/product_price
+/server/database/inventory
+
+# Each consumers are classified into gender and listed under two files
+1. male.db
+2. female.db
+
+# Each products are classified into its usage
+1. grocery.db
+2. toy.db
+3. drinks.db
+
+# inventory is single db
+inventory.db
+
+# Our task if to extract a customer's id and know the price if a product she have chosen and want to know if there is item
+
+query : John(male)
+product : coffee
+
+# Where is male's db
+/server/database/consumer_id/male.db
+-> extract some id
+
+# Where is coffee?
+# coffee is classfied as drink
+/server/databases/product_price/drinks.db
+
+# How many items?
+/server/databases/inventory/inventory.db
+
+# Real coding will tell you like this
+
+gender_db = /server/database/consumer_id/male.db
+product_price_db = /server/databases/product_price/drinks.db
+items_db = /server/databases/inventory/inventory.db
+
+# Read gender db -> Find John -> Find password of him, check if password tht John entered is equal to DB's password
+
+# Check how much is a coffe
+# Read product_price_db and find price of coffee
+# how many are there
+# Read items_db and find how many are left?
