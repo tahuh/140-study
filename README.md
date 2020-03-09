@@ -8,6 +8,7 @@ I really appreciate w3school people who make the knowledge accesilbe to everyone
 
 ## Maintainer
 The head of 140 development team
+Also other people unlisted
 
 ## License
 MIT
