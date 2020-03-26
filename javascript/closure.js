@@ -76,7 +76,7 @@ function personInfoWithClosure2(name){
 	return assignUniversity;
 }
 
-var info = persinInfoWithClosure2("Thomas");
+var info = personInfoWithClosure2("Thomas");
 info("Yonsei") // Your name is Thomas, and school you go is Yonsei
 
 /*
